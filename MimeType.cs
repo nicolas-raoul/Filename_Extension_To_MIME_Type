@@ -930,7 +930,6 @@ namespace CmisSync.Lib.Cmis
                 {"wmv", "video/x-ms-wmv"},
                 {"wmx", "video/x-ms-wmx"},
                 {"wmz", "application/x-msmetafile"},
-                {"wmz", "application/x-ms-wmz"},
                 {"woff", "application/x-font-woff"},
                 {"wpd", "application/vnd.wordperfect"},
                 {"wpl", "application/vnd.ms-wpl"},
