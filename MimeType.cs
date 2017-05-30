@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.IO;
 
-namespace CmisSync.Lib.Cmis
+namespace NicolasRaoul.Mime
 {
     /// <summary>
     /// Utility to find a file's MIME type.
-    /// The current implementation relies on file extension.
+    /// Relies on file extension.
     /// </summary>
     public static class MimeType
     {
@@ -16,7 +16,7 @@ namespace CmisSync.Lib.Cmis
         /// Guess the MIME type of a file.
         /// </summary>
         /// <param name="fileName">Relative filename, for instance mydoc.odt</param>
-        /// <returns>MIME type, for instance </returns>
+        /// <returns>MIME type, for instance application/vnd.oasis.opendocument.text</returns>
         public static string GetMIMEType(string fileName)
         {
             if (Path.GetExtension(fileName).Length > 1 && /* File with an extension */
